@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(255, 237, 177);
+}
+
+.heading{
+   font-size: 35px;
+   width: 100%;
+   box-shadow: 5px 5px 5px grey;
+   margin-top: 0;
+   background-color: rgb(80, 80, 80);
+   color: aliceblue;
+}
+
+.heading:hover{
+    font-size: 40px;
+    width: 100%;
+    box-shadow: 6px 6px 6px grey;
+    margin-top: 0;
+    background-color: rgb(80, 80, 80);
+    color: aliceblue;
+ }
+
+.note{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.note:hover{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(58, 59, 59);
+    line-height: 3;
+    text-align: center;
+    font-size: 23px;
+}
+
+.copy_right_footer:hover{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(58, 59, 59);
+    line-height: 3;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 15px;
+    box-shadow: 5px 5px grey;
+    margin-top: 200px;
+}
+
+canvas:hover{
+    border: 6px solid white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(18, 255, 57);
+    width: 520px !important;
+    height: 520px !important;
+}
+
+#font_size_lbl{
+    font-size: 30px;
+    width: 100%;
+    color: white;
+}
+
+
